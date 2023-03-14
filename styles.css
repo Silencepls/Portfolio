@@ -14,6 +14,20 @@ html, body{
     height: 100%;
     left: 0px;
   }
+
+  .circular-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center 45%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/Me.jpeg');
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
   
   #main-doc{
     position: absolute;
@@ -21,13 +35,20 @@ html, body{
     transform: translateX(-50%); 
     padding: 20px;
     font-size: larger;
-    border: solid black;
     width: 50vw;
     max-width: 1000px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
   }
 
   .main-section header{
     text-align: center;
+  }
+
+  .main-section p{
+    text-align: justify;
   }
   
   header{
@@ -89,13 +110,5 @@ html, body{
       position: relative;
       margin-left: 0px;
       margin-top: 280px;
-    }
-    
-    code {
-      margin-left: 0px;
-      width: 100%;
-      padding: 15px;
-      padding-left: 10px;
-      min-width: 233px;
     }
   }
