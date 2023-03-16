@@ -47,15 +47,22 @@ p {
   right: 0;
 }
 
-.main-section img,
-.main-section video {
+.short-arrow.left-arrow {
+  left: 225px;
+}
+
+.short-arrow.right-arrow {
+  right: 225px;
+}
+
+.normal-size {
   margin-top: 20px;
   max-width: 95%;
 }
 
-.short {
+.short-size {
   margin-top: 20px;
-  max-width: 10%;
+  max-width: 50%;
 }
 
 #navbar {
