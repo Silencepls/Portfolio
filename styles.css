@@ -47,9 +47,15 @@ p {
   right: 0;
 }
 
-.main-section img, .main-section video {
+.main-section img,
+.main-section video {
   margin-top: 20px;
   max-width: 95%;
+}
+
+.short {
+  margin-top: 20px;
+  max-width: 10%;
 }
 
 #navbar {
