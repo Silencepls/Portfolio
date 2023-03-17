@@ -66,15 +66,13 @@ p {
 
 .normal-size {
   margin-top: 20px;
+  margin-bottom: 10px;
   max-width: 95%;
-}
-
-.no-top {
-  margin-top: 0px;
 }
 
 .short-size {
   margin-top: 20px;
+  margin-bottom: 10px;
   max-width: 50%;
 }
 
@@ -97,7 +95,7 @@ p {
   background-size: cover;
   background-image: url('images/Me.jpeg');
   margin: auto;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 25px;
 }
 
@@ -139,6 +137,14 @@ header {
   color: #4d4e53;
   display: block;
   padding: 10px 30px;
+}
+
+.book-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  width: 50%;
 }
 
 @media only screen and (min-width: 1500px) {
