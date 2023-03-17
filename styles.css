@@ -69,6 +69,10 @@ p {
   max-width: 95%;
 }
 
+.no-top {
+  margin-top: 0px;
+}
+
 .short-size {
   margin-top: 20px;
   max-width: 50%;
@@ -185,7 +189,7 @@ header {
     position: relative;
     margin: auto;
     margin-left: -150px;
-    margin-top: 280px;
+    margin-top: 300px;
     transform: 0;
     width: 75vw;
   }
