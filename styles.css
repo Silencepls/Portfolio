@@ -17,7 +17,7 @@ p {
 }
 
 .learning.m {
-  margin: 25px 100px 0px 100px;
+  margin: 15px 100px 0px 100px;
 }
 
 .main-section {
@@ -106,7 +106,7 @@ header {
 }
 
 #main-doc {
-  position: absolute;
+  position: relative;
   left: calc(50% - -150px);
   transform: translateX(-50%);
   padding: 20px;
@@ -140,11 +140,18 @@ header {
 }
 
 .book-container {
+  /* border: 1px solid black; */
   position: relative;
   display: flex;
-  justify-content: space-between;
-  height: 50%;
-  width: 50%;
+  align-items: flex-end;
+  justify-content: center;
+  width: 40vw;
+  height: 30vw;
+}
+
+.book-container img {
+  width: 20vw;
+  height: 30vw;  
 }
 
 @media only screen and (min-width: 1500px) {
