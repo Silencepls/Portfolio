@@ -146,6 +146,7 @@ header {
   justify-content: center;
   width: 40vw;
   height: 30vw;
+  margin-top: 15px;
 }
 
 .book-container img {

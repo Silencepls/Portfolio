@@ -5,14 +5,37 @@ let farmlaxArray = [
 ];
 let flIndex = 0;
 
+let artsArray = [
+    "images/arts/Soul.jpg",
+    "images/arts/1 ink - Gargula.jpg",
+    "images/arts/2 ink - Pressa.jpg",
+    "images/arts/3 ink - Morcego.jpg",
+    "images/arts/4 ink - Ostra.jpg",
+    "images/arts/Monogatari ed 1 Full.png",
+    "images/arts/11 ink - Eargle.jpg"
+]
+let artIndex = 0;
+
 let leftArrowFL = document.getElementById("farmlax-left");
 leftArrowFL.addEventListener("click", () => {
     flIndex--;
-    leftArrowFL.previousElementSibling.src = farmlaxArray[Math.abs(flIndex) % 3];
+    leftArrowFL.previousElementSibling.src = farmlaxArray[(flIndex + farmlaxArray.length) % farmlaxArray.length];
 });
 
 let rightArrowFL = document.getElementById("farmlax-right");
 rightArrowFL.addEventListener("click", () => {
-    flIndex++
-    rightArrowFL.previousElementSibling.previousElementSibling.src = farmlaxArray[Math.abs(flIndex) % 3];
+    rightArrowFL.previousElementSibling.previousElementSibling.src = farmlaxArray[(flIndex + 1) % farmlaxArray.length];
+    flIndex = (flIndex + 1) % farmlaxArray.length;
+});
+
+let leftArrowArt = document.querySelectorAll(".short-arrow.arrow.left-arrow");
+leftArrowArt[0].addEventListener("click", () => {
+    artIndex--;
+    leftArrowArt[0].previousElementSibling.src = artsArray[(artIndex + artsArray.length) % artsArray.length];
+});
+
+let rightArrowArt = document.querySelectorAll(".short-arrow.arrow.right-arrow");
+rightArrowArt[0].addEventListener("click", () => {
+    rightArrowArt[0].previousElementSibling.previousElementSibling.src = artsArray[(artIndex + 1) % artsArray.length];
+    artIndex = (artIndex + 1) % artsArray.length;
 });
