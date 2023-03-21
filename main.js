@@ -1,3 +1,5 @@
+location.reload();
+
 const farmlaxArray = [
     "images/Farmlax.png",
     "images/Farmlax2.png",
