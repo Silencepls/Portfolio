@@ -7,7 +7,7 @@ My goal with this portfolio is to provide a more human look at who I am, my stor
 
 Here you are going to find a little bit of my story, career, which include projects in game development, digital illustration, web development, marketing and computer science. I also present a list of my strong points, my certificates and how you can contact me.
 
-In this public project, made also to be my final project of the cs50, I used html, with fontsawasome; some css to style the page and make it look better, and some javascript: the main.js, with the purpose of adding simple logics to image buttons, so you can click them to see the next or previous image; and the translator.js with the purpose of adding the ability to translate the page to english and portguese. I chose to make a simple dictonary and directly translate every text, so I could make sure it would stay concise with the original essays I wrote in portuguese.
+In this public project, made also to be my final project of the cs50, I used html, with fontsawasome; some css to style the page and make it look better, and some javascript: the main.js, with the purpose of adding simple logics to image buttons, so you can click them to see the next or previous image; and the translator.js with the purpose of adding the ability to translate the page to english and portuguese. I chose to make a simple dictonary and directly translate every text, so I could make sure it would stay concise with the original essays I wrote in portuguese.
 
 Right now I am looking for job opportunities while I finish my studies in computer science. Despite being in a tough financial situation, I am focused on completing this portfolio, earning my CS50 certificate from Harvard and starting to apply for jobs.
 
