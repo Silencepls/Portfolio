@@ -62,3 +62,6 @@ loadImages.then(() => {
         rightArrowArt[0].previousElementSibling.previousElementSibling.src = loadedArts[val].src;
     });
 });
+
+const audio = document.getElementById("myAudio");
+audio.volume = 0.05;
