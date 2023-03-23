@@ -121,4 +121,4 @@ function updateLanguageButtons() {
     }
     pt_br.classList.add("active");
     en_us.classList.remove("active");
-}
+};

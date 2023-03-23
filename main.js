@@ -14,7 +14,7 @@ const artsArray = [
     "images/arts/4 ink - Ostra.jpg",
     "images/arts/Monogatari ed 1 Full.png",
     "images/arts/11 ink - Eargle.jpg"
-]
+];
 let loadedArts = [];
 let artIndex = 0;
 
@@ -30,7 +30,7 @@ let loadImages = new Promise((resolve) => {
         loadedFl.push(img);
     }
     resolve();
-})
+});
 
 loadImages.then(() => {
     const leftArrowFL = document.querySelectorAll(".arrow.left-arrow");
@@ -42,7 +42,7 @@ loadImages.then(() => {
         flIndex == 0 ? flIndex = farmlaxArray.length - 1 : flIndex--;
         let val = flIndex % farmlaxArray.length;
         leftArrowFL[0].previousElementSibling.src = loadedFl[val].src;
-    })
+    });
 
     rightArrowFL[0].addEventListener("click", () => {
         flIndex++;
@@ -61,4 +61,4 @@ loadImages.then(() => {
         let val = artIndex % artsArray.length;
         rightArrowArt[0].previousElementSibling.previousElementSibling.src = loadedArts[val].src;
     });
-})
+});
