@@ -19,12 +19,12 @@ let loadedArts = [];
 let artIndex = 0;
 
 let loadImages = new Promise((resolve) => {
-    for(let i = 0; i < artsArray.length; i++){
+    for (let i = 0; i < artsArray.length; i++) {
         let img = new Image();
         img.src = artsArray[i];
         loadedArts.push(img);
     }
-    for(let i = 0; i < farmlaxArray.length; i++){
+    for (let i = 0; i < farmlaxArray.length; i++) {
         let img = new Image();
         img.src = farmlaxArray[i];
         loadedFl.push(img);
@@ -62,6 +62,3 @@ loadImages.then(() => {
         rightArrowArt[0].previousElementSibling.previousElementSibling.src = loadedArts[val].src;
     });
 });
-
-const audio = document.getElementById("myAudio");
-audio.volume = 0.05;

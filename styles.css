@@ -198,6 +198,15 @@ hr {
   background-color: #f2f2f2;
 }
 
+/* sound button */
+
+#volume {
+  border: none;
+  background-color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 1500px) {
   #main-doc {
     width: 85vw;
