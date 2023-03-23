@@ -158,6 +158,16 @@ header {
   height: 30vw;  
 }
 
+.book-container.normal-size {
+  width: 40vw;
+  height: 20vw;
+}
+
+.book-container.normal-size img {
+  width: 100%;
+  height: 100%;  
+}
+
 hr {
   position: relative;
   left: -18px;

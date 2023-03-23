@@ -66,7 +66,11 @@ const dictionary = {
     "Tenho interesse em como a mente humana funciona e como criar experiências agradáveis em produtos com UX, UI e marketing.": "I am interested in how the human mind works and how to create enjoyable product experiences with UX, UI and marketing.",
     "Possuo conhecimentos sobre filosofia, o que se mostra necessário em tempos difíceis para uma reflexão mais profunda sobre política, saúde humana, psicologia, sentido da vida e outros temas relevantes.": "I have knowledge of philosophy, which is necessary in difficult times for a deeper reflection on politics, human health, psychology, the meaning of life and other relevant topics.",
     "Como a média de leitura no país é de 2,43 livros por ano, meus hábitos de leitura sobre filosofia e ciências da computação são um grande diferencial.": "As the average reading in Brazil is 2.43 books per year, my reading habits on philosophy and computer science is a big differential.",
-    "Tenho vasta experiência trabalhando em equipe e criando jogos para game jams, o que aprimorou minhas habilidades de comunicação e sociais.": "I have extensive experience working in teams and creating games for game jams, which has improved my communication and social skills."
+    "Tenho vasta experiência trabalhando em equipe e criando jogos para game jams, o que aprimorou minhas habilidades de comunicação e sociais.": "I have extensive experience working in teams and creating games for game jams, which has improved my communication and social skills.",
+
+    "FreeCodeCamp" : "FreeCodeCamp",
+    "Github" : "Github",
+    "silencepleaseofficialbr@gmail.com" : "silencepleaseofficialbr@gmail.com"
 }
 let isEnglish = false;
 
@@ -74,7 +78,7 @@ const arr = document.querySelectorAll("a, p, header, .point");
 const language_switch = document.getElementById("language-switch");
 const en_us = language_switch.firstElementChild;
 const pt_br = language_switch.lastElementChild;
-changeLanguage();
+// changeLanguage();
 
 en_us.addEventListener("click", () => {
     if (isEnglish) return;
