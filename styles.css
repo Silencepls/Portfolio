@@ -236,6 +236,22 @@ hr {
   }
 }
 
+/* icon */
+
+.icon {
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #f2f2f2;
+}
+
+a.icon:hover {
+  background-color: #c6c6c6;
+}
+
 @media only screen and (max-width: 815px) {
   #navbar {
     top: 0;

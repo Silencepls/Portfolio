@@ -68,17 +68,16 @@ const dictionary = {
     "Como a média de leitura no país é de 2,43 livros por ano, meus hábitos de leitura sobre filosofia e ciências da computação são um grande diferencial.": "As the average reading in Brazil is 2.43 books per year, my reading habits on philosophy and computer science is a big differential.",
     "Tenho vasta experiência trabalhando em equipe e criando jogos para game jams, o que aprimorou minhas habilidades de comunicação e sociais.": "I have extensive experience working in teams and creating games for game jams, which has improved my communication and social skills.",
 
-    "FreeCodeCamp" : "FreeCodeCamp",
-    "Github" : "Github",
+    
     "silencepleaseofficialbr@gmail.com" : "silencepleaseofficialbr@gmail.com"
 }
 let isEnglish = false;
 
-const arr = document.querySelectorAll("a, p, header, .point");
+const arr = document.querySelectorAll("p, header, .point, a:not(.icon)");
 const language_switch = document.getElementById("language-switch");
 const en_us = language_switch.firstElementChild;
 const pt_br = language_switch.lastElementChild;
-// changeLanguage();
+changeLanguage();
 
 en_us.addEventListener("click", () => {
     if (isEnglish) return;
