@@ -163,6 +163,31 @@ hr {
   left: -18px;
 }
 
+/* language switch */
+
+.language-switch {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.language-switch a {
+  display: inline-block;
+  padding: 5px;
+  color: #666;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.language-switch a.active {
+  background-color: #4d4c4c;
+  color: #fff;
+}
+
+.language-switch a:hover:not(.active) {
+  background-color: #f2f2f2;
+}
+
 @media only screen and (min-width: 1500px) {
   #main-doc {
     width: 85vw;
