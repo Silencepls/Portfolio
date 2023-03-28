@@ -77,7 +77,7 @@ const arr = document.querySelectorAll("p, header, .point, a:not(.icon)");
 const language_switch = document.getElementById("language-switch");
 const en_us = language_switch.firstElementChild;
 const pt_br = language_switch.lastElementChild;
-// changeLanguage();
+changeLanguage();
 
 en_us.addEventListener("click", () => {
     if (isEnglish) return;
