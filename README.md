@@ -15,5 +15,4 @@ Upon completion of this project, I intend to continue developing my skills throu
 
 I believe that this portfolio and my life trajectory can attract the attention of potential employers and give me opportunities for interviews and, thus, eventually gain a position in the job market. I look forward to applying my knowledge and skills in a professional environment and continuing to grow in my career.
 
-Access Here: https://silencepls.github.io/Portfolio/ 
-testing
+Access Here: https://silencepls.github.io/Portfolio/
