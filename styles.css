@@ -109,7 +109,7 @@ header {
   margin: 15px;
 }
 
-#main-doc {
+.main-doc {
   position: relative;
   left: calc(50% - -150px);
   transform: translateX(-50%);
@@ -208,7 +208,7 @@ hr {
 }
 
 @media only screen and (min-width: 1500px) {
-  #main-doc {
+  .main-doc {
     width: 85vw;
   }
 }
@@ -267,7 +267,7 @@ a.icon:hover {
     height: 215px;
   }
 
-  #main-doc {
+  .main-doc {
     position: relative;
     margin: auto;
     margin-left: -150px;

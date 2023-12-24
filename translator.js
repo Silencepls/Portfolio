@@ -61,7 +61,7 @@ const dictionary = {
 }
 let isEnglish = false;
 
-const arr = document.querySelectorAll("p, header, .point, a:not(.icon)");
+const arr = document.querySelectorAll("header, .point, a:not(.icon, .n), p:not(.n)");
 const language_switch = document.getElementById("language-switch");
 const en_us = language_switch.firstElementChild;
 const pt_br = language_switch.lastElementChild;
