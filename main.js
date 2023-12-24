@@ -7,22 +7,18 @@ let loadedFl = [];
 let flIndex = 0;
 
 const artsArray = [
-    "images/arts/Soul.jpg",
-    "images/arts/1 ink - Gargula.jpg",
-    "images/arts/2 ink - Pressa.jpg",
-    "images/arts/3 ink - Morcego.jpg",
-    "images/arts/4 ink - Ostra.jpg",
-    "images/arts/Monogatari ed 1 Full.png",
-    "images/arts/11 ink - Eargle.jpg"
+    "images/tuw3.png",
+    "images/tuw2.png",
+    "images/tuw1.png"
 ];
-let loadedArts = [];
-let artIndex = 0;
+let loadedTUW = [];
+let tuwIndex = 0;
 
 let loadImages = new Promise((resolve) => {
     for (let i = 0; i < artsArray.length; i++) {
         let img = new Image();
         img.src = artsArray[i];
-        loadedArts.push(img);
+        loadedTUW.push(img);
     }
     for (let i = 0; i < farmlaxArray.length; i++) {
         let img = new Image();
@@ -35,8 +31,8 @@ let loadImages = new Promise((resolve) => {
 loadImages.then(() => {
     const leftArrowFL = document.querySelectorAll(".arrow.left-arrow");
     const rightArrowFL = document.querySelectorAll(".arrow.right-arrow");
-    const leftArrowArt = document.querySelectorAll(".short-arrow.arrow.left-arrow");
-    const rightArrowArt = document.querySelectorAll(".short-arrow.arrow.right-arrow");
+    const leftArrowTUW = document.querySelectorAll(".tuw.arrow.left-arrow");
+    const rightArrowTUW = document.querySelectorAll(".tuw.arrow.right-arrow");
 
     leftArrowFL[0].addEventListener("click", () => {
         flIndex == 0 ? flIndex = farmlaxArray.length - 1 : flIndex--;
@@ -50,15 +46,15 @@ loadImages.then(() => {
         rightArrowFL[0].previousElementSibling.previousElementSibling.src = loadedFl[val].src;
     });
 
-    leftArrowArt[0].addEventListener("click", () => {
-        artIndex == 0 ? artIndex = artsArray.length - 1 : artIndex--;
-        let val = artIndex % artsArray.length;
-        leftArrowArt[0].previousElementSibling.src = loadedArts[val].src;
+    leftArrowTUW[0].addEventListener("click", () => {
+        tuwIndex == 0 ? tuwIndex = artsArray.length - 1 : tuwIndex--;
+        let val = tuwIndex % artsArray.length;
+        leftArrowTUW[0].previousElementSibling.src = loadedTUW[val].src;
     });
 
-    rightArrowArt[0].addEventListener("click", () => {
-        artIndex++;
-        let val = artIndex % artsArray.length;
-        rightArrowArt[0].previousElementSibling.previousElementSibling.src = loadedArts[val].src;
+    rightArrowTUW[0].addEventListener("click", () => {
+        tuwIndex++;
+        let val = tuwIndex % artsArray.length;
+        rightArrowTUW[0].previousElementSibling.previousElementSibling.src = loadedTUW[val].src;
     });
 });
