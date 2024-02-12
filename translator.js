@@ -5,7 +5,7 @@ const dictionary = {
     "Desenvolvimento de Jogos": "Game Development",
     "Desenvolvimento Web": "Web Development",
     "Ciências da Computação": "Computer Science",
-    "Certificados e Contatos": "Certificates and Contacts",
+    "Contatos": "Contacts",
 
     "EN-US": "EN-US",
     "PT-BR": "PT-BR",
